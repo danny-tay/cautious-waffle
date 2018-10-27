@@ -16,24 +16,99 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+			<td>
+				<img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png" alt="picture of Bulbasaur"></td>
 			<td>Bulbasaur</td>
 			<td>Grass/Poison</td>
 			<td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
 		</tr>
 		<tr>
-			<td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+			<td>
+				<img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png" alt="picture of Charmander"></td>
 			<td>Charmander</td>
 			<td>Fire</td>
 			<td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
 		</tr>
 		<tr>
-			<td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+			<td>
+				<img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png" alt="picture of Squirtle"></td>
 			<td>Squirtle</td>
 			<td>Water</td>
 			<td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
 		</tr>
 	</tbody>	
 </table>
+
+<h1>Register</h1>
+
+	<form action="" method="post">
+		<div>
+			<label for="user_first">First Name:</label>
+			<input id="user_first" type="text" name="FirstName" placeholder="John" value="first_name" required>
+
+			<label for="user_last">Last Name:</label>
+			<input id="user_last" type="text" name="LastName" placeholder="Smith" value="last_name" required>
+		</div>
+		
+		<div>
+			<label for="user_gender">Male</label>
+			<input id="user_gender" type="radio" name="Gender" value="male">
+
+			<label for="user_gender">Female</label>
+			<input id="user_gender" type="radio" name="Gender" value="female">
+			
+			<label for="user_gender">Other</label>
+			<input ide="user_gender" type="radio" name="Gender" value="other">
+		</div>
+		
+		<div>
+			<label for="user_email">Email:</label>
+			<input id="user_email" type="email" name="Email" value="email" required"">
+			<label for="user_password">Password:</label>
+			<input id="user_password" type="password" name="Password" value="password">
+		</div>
+		
+		
+		<label>Birthday:
+		</label>
+			<select>
+				<option>Month</option>
+				<option>JAN</option>
+				<option>FEB</option>
+				<option>MAR</option>
+				<option>APR</option>
+				<option>MAY</option>
+				<option>JUN</option>
+				<option>JUL</option>
+			</select>
+			<select>
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+			</select>
+			<select>
+				<option>Year</option>
+				<option>1960</option>
+				<option>1970</option>
+				<option>1980</option>
+				<option>1990</option>
+				<option>2000</option>
+				<option>2010</option>
+				<option>2020</option>
+				
+			</select>
+		<p>
+			I agree to the terms and conditions
+			<input type="checkbox" name="agreed" required>
+		</p>
+		
+		<input type="Submit">
+	</form>
+
 </body>
 </html>
