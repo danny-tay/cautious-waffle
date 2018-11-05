@@ -1,0 +1,17 @@
+p{
+	font-family: 'Dr Sugiyama', cursive;
+	font-weight: lighter;
+	font-size: 46pt;
+	margin-top: unset;
+	margin-left: 1.66%;
+	border-bottom: 2px solid #e6e6e6;
+	width: 30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
