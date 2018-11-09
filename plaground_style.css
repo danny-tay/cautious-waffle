@@ -1,0 +1,21 @@
+.bg-my-blue{
+	background-color: #e6f9ff;
+}
+
+.jumbotron{
+	padding-top: 20px;
+	margin-top: 30px;
+	background-color: #e6f9ff;
+}
+
+.first_row{
+	border: 3px gray dotted;
+}
+
+.second_row{
+	border: 5px double green
+}
+
+footer{
+	padding-top: 30px;
+}
