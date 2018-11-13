@@ -5,14 +5,14 @@
 	<title>Score Keeper I</title>
 </head>
 <body>
-<h1>0 to 0</h1>
+<h1><span id="p1_score_disyplay">0</span> to <span id="p2_score_disyplay">0</span></h1>
 
-<p>Playing to:</p>
+<p>Playing to: <span id="playTill">5</span></p>
 
-<input type="number" name="playTill" min="1" max="10">
+<input type="number" min="1" max="10" value="5">
 
-<button>Player One</button>
-<button>Player Two</button>
+<button id="player1">Player One</button>
+<button id="player2">Player Two</button>
 <button id="reset"><strong>Reset</strong></button>
 
 <script type="text/javascript" src="scorekeeper.js"></script>
