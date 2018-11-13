@@ -1,0 +1,27 @@
+body{
+	font-family: 'Alfa Slab One', cursive;
+	background-color: black;
+}
+
+#menubar{
+	background-color: white;
+}
+
+.bg-myblue{
+	background-color: #66c2ff;
+}
+
+.jumbotron{
+	padding: 16px;
+	text-align: center;
+}
+
+.squares{
+	border: 2px solid black;
+	border-radius: 25px;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	background-color: purple;
+	float: left;
+}

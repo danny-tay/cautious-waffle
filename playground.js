@@ -17,10 +17,11 @@ var button = document.querySelector("button");
 // });
 
 button.addEventListener("click",function(){
- 	if(this.style.background != "purple"){
- 		this.style.background = "purple";
+	console.log("current background: " + this.style.background)
+ 	if(this.style.background != "rgb(217, 179, 255)"){
+ 		this.style.background = "rgb(217, 179, 255)";
   	}
   	else{
-  		this.style.background = "white";
+  		this.style.background = "#FFFFFF";
   	}
 });
