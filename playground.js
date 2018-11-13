@@ -1,49 +1,26 @@
-function isEven(num){
-	return num % 2 === 0;
-}
+var button = document.querySelector("button");
 
-function factorial(num){
-var result = 1;
-for (var i = 1; i <=num; i++) {
-	result *= i;
-}
-	return result;
-}
 
-function kebabToSnake(str){
-	return str.replace(/-/g, "_");
-}
+// button.addEventListener("click", function(){
+// 	this.classList.toggle("togglePurple")
+// })
 
-function printReverse(my_array){
-	for(var i = my_array.length-1; i>=0; i--){
-		console.log(my_array[i]);
-	}
-}
+// var isPurple = false; 
+// button.addEventListener("click",function(){
+// 	if(isPurple){
+// 		this.style.background = "white";
+// 	}
+// 	else{
+// 		this.style.background = "#9966ff";
+// 	}
+// 	isPurple = !isPurple;
+// });
 
-function isUniform(my_array){
-	var item = my_array[0];
-	for (var i=1; i<my_array.length; i++ ){
-		if (my_array[i] != item){
-			return false;
-		}
-	}
-	return true;
-}
-
-function sumArray(my_array){
-	var sum = 0;
-	my_array.forEach(function(num){
-		sum += num;
-	});
-	return sum;
-}
-
-function max(my_array){
-	var big = my_array[0];
-	my_array.forEach(function(num){
-		if(num>big){
-			big = num;
-		};
-	});
-	return big;
-}
+button.addEventListener("click",function(){
+ 	if(this.style.background != "purple"){
+ 		this.style.background = "purple";
+  	}
+  	else{
+  		this.style.background = "white";
+  	}
+});

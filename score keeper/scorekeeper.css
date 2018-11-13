@@ -1,0 +1,15 @@
+body{
+	font-size: 2em;
+	margin-left: 8%;
+}
+
+button, input {
+	font-size: 16pt;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+#reset{
+	background-color: #ff4d4d;
+	border: 2px solid black;
+}
