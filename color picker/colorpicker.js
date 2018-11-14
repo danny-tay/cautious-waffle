@@ -9,39 +9,13 @@ var jumboBG = document.querySelector(".bg-myblue");
 var colorPick;
 var numSquare = 6;
 
+init();
 
-for (var i=0; i< numSquare ;i++){
-		colors[i] = randomColors();
-		squares[i].style.backgroundColor = colors[i];
-}
-
-colorPick = pickRandom();
-colorDisplay.textContent = colorPick.toUpperCase();
-newgame.addEventListener("click", newGame);
-easy.addEventListener("click", easyMode);
-hard.addEventListener("click", hardMode);
-
-for (var i=0; i< numSquare ;i++){
-	squares[i].addEventListener("click", function(){
-		var picked = this.style.backgroundColor;
-		if(picked === colorPick){
-			message.textContent = "CORRECT!";
-			newgame.textContent = "PLAY AGAIN?"
-			setAllColors(colorPick);
-		}
-		else{
-			this.style.backgroundColor = "black";
-			message.textContent = "TRY AGAIN";
-		}
-	});
-}
-
-function mouseOver(){
-	this.style.color = "blue";
-}
-
-function mouseOut(){
-	this.style.color = "black";
+function init(){
+	newGame();
+	newgame.addEventListener("click", newGame);
+	easy.addEventListener("click", easyMode);
+	hard.addEventListener("click", hardMode);
 }
 
 function newGame(){
