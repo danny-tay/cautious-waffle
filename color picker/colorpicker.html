@@ -20,22 +20,22 @@
 		<h1 class="display-4">RGB(0, 0, 0)</h1>
 		<p>GUESSING GAME</p>
 	</div>
-	<div class="container" id="menubar">
+	<div class="container-fluid" id="menubar">
 		<div class="row justify-content-between">
-			<div class="col-4" align="center">
+			<div class="col-4" align="right">
 				<button id="newgame">NEW COLORS</button>
 			</div>
 			<div class="col-4" align="center">
 				<span id="message"></span>
 			</div>
-			<div class="col-4" align="right">
-				<button>EASY</button>
-				<button>HARD</button>
+			<div class="col-4" align="left">
+				<button id="easy">EASY</button>
+				<button class="selected" id="hard">HARD</button>
 			</div>	
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container all9">
 		<div class="squares"></div>
         <div class="squares"></div>
         <div class="squares"></div>

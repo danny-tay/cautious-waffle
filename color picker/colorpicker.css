@@ -3,10 +3,6 @@ body{
 	background-color: black;
 }
 
-#menubar{
-	background-color: white;
-}
-
 .bg-myblue{
 	background-color: #66c2ff;
 }
@@ -14,6 +10,11 @@ body{
 .jumbotron{
 	padding: 16px;
 	text-align: center;
+	margin-bottom: 0px;
+}
+
+.all9{
+	max-width: 900px;
 }
 
 .squares{
@@ -24,4 +25,20 @@ body{
 	margin: 1.66%;
 	background-color: purple;
 	float: left;
+}
+
+.selected{
+	background-color: #66c2ff;
+}
+
+#menubar{
+	background-color: white;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 0px;
+	padding: 1px;
+}
+
+#menubar button{
+	border: none;
 }
