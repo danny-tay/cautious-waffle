@@ -18,15 +18,8 @@ for (var i=0; i< numSquare ;i++){
 colorPick = pickRandom();
 colorDisplay.textContent = colorPick.toUpperCase();
 newgame.addEventListener("click", newGame);
-newgame.addEventListener("mouseover", mouseOver);
-newgame.addEventListener("mouseout", mouseOut);
 easy.addEventListener("click", easyMode);
-easy.addEventListener("mouseover", mouseOver);
-easy.addEventListener("mouseout", mouseOut);
 hard.addEventListener("click", hardMode);
-hard.addEventListener("mouseover", mouseOver);
-hard.addEventListener("mouseout", mouseOut);
-
 
 for (var i=0; i< numSquare ;i++){
 	squares[i].addEventListener("click", function(){
@@ -46,7 +39,6 @@ for (var i=0; i< numSquare ;i++){
 function mouseOver(){
 	this.style.color = "blue";
 }
-
 
 function mouseOut(){
 	this.style.color = "black";
@@ -97,7 +89,7 @@ function pickRandom(){
 }
 
 function setAllColors(color=colorPick){
-	for (var i = 0; i < squares.length; i++){
+	for (var i = 0; i < numSquare; i++){
 		squares[i].style.backgroundColor = color;
 	}
 	jumboBG.style.backgroundColor = color;
