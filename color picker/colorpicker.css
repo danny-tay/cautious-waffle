@@ -9,6 +9,10 @@ button{
 	height: 100%;
 }
 
+button:focus{
+	outline: none;
+}
+
 button:hover {
 	color: white;
 	background-color: #66c2ff; 
@@ -53,7 +57,7 @@ button:hover {
 	text-align: center;
 	vertical-align: center;
 	margin-top: 0px;
-	padding: 1px;
+	padding: 0px;
 }
 
 #menubar button{
