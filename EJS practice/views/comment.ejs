@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<h1>Comment page</h1>
+
+<% for(var i=0; i<comments.length; i++){ %>
+    <li>Title: <%= comments[i].headline %>, Author: <%= comments[i].author %></li>
+<% } %>
+
+<form action="/addcomment" method="POST">
+    <input type="text" name="newHeadline" placeholder="Headline">
+    <input type="text" name="authorName" placeholder="Author Name">
+    <input type="submit" value="Submit">
+</form>
+
+<% include partials/footer %>
