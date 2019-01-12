@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 29px;
+}
+
+section {
+  position: relative;
+}
+
+section img {
+	position: absolute;
+}
+
+.jumbotron{
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 35px;
+	font-family: 'Exo 2', sans-serif;
+	background-color: #e6e6e6;
+}
+
+.jumbotron .display-4{
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+}
+
+.jumbotron .lead{
+	font-weight: bold;
+}
+
+.thumbnail .top{
+	-webkit-transition: all ease 1.1s;
+	-moz-transition: all ease 1.1s;
+	-o-transition: all ease 1.1s;
+	-ms-transition: all ease 1.1s;
+	transition: all ease 1.1s;
+}
+
+.thumbnail .top:hover {
+  opacity:0;
+}
