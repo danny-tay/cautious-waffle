@@ -7,12 +7,19 @@ img {
 	padding-bottom: 29px;
 }
 
-section {
-  position: relative;
+.navbar{
+	border-radius: .3rem;
+	background: rgba(248, 249, 250, 0.7);
 }
 
-section img {
-	position: absolute;
+.navbar-brand img{
+	height: 75px;
+	width: 80px;
+	padding-bottom: 0px;
+}
+
+.sticky-top{
+	top: 5px;
 }
 
 .jumbotron{
@@ -20,16 +27,13 @@ section img {
 	padding-top: 30px;
 	padding-bottom: 35px;
 	font-family: 'Exo 2', sans-serif;
-	background-color: #e6e6e6;
+	background-color: rgba(248, 249, 250, 0.7);
 }
 
-.jumbotron .display-4{
-	letter-spacing: 0.1em;
-	font-weight: bolder;
-}
-
-.jumbotron .lead{
-	font-weight: bold;
+.jumbotron{
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+	background: rgba(248, 249, 250, 0.7);
 }
 
 .thumbnail .top{
